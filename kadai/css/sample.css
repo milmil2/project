@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 32px;
+  width: 100%;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+h1 {
+  font-size: 100%;
+}
+main {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+p {
+  font-size: 200%;
+  text-align: center;
+  height: 200px;
+}
+
+ul {
+  padding: 0;
+  display: table; /* 定義 */
+  table-layout: fixed;
+  width: 100%;
+  font-size: 80%;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: aqua;
+  display: table-cell; /* 定義 */
+  color: #0d7dfd;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+  height: 50px;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+  margin: 10px;
+}
+.btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+  border-radius: 10px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  transition-duration: 0.2s;
+}
+.btn:hover span {
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+}
+
+#key {
+  margin: 0 3%;
+  width: 95%;
+  font-size: 80%;
+  background-color: #e1efff;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+table {
+  margin: 20px 3%;
+  border: 1px solid #8dc3f5;
+  width: 96%;
+}
+th {
+  width: 30%;
+  font-size: 24px;
+  background-color: #d0e7fc;
+}
+td {
+  font-size: 16px;
+  background-color: rgb(241, 239, 239);
+}
+input {
+  margin: 10px 3%;
+  width: 95%;
+  height: 40px;
+  font-size: 80%;
+}
